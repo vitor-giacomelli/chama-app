@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CourseSignUp.Api.Lecturers
+namespace CourseSignUp.Api.Controllers
 {
     [ApiController, Route("[controller]")]
     public class LecturersController : ControllerBase

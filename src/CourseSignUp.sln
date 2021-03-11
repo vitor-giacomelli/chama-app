@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSignUp.Api", "CourseSignUp.Api\CourseSignUp.Api.csproj", "{21306EFD-106D-49A4-A46E-38F4B4529DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseSignUp.Api", "CourseSignUp.Api\CourseSignUp.Api.csproj", "{21306EFD-106D-49A4-A46E-38F4B4529DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSignUp.Repositories", "CourseSignUp.Repositories\CourseSignUp.Repositories.csproj", "{EA9AADCD-16D1-4472-885C-6CE74B186888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSignUp.Services", "CourseSignUp.Services\CourseSignUp.Services.csproj", "{D47E82DB-1EA6-4091-B8ED-5A12703CFA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSignUp.Common", "CourseSignUp.Common\CourseSignUp.Common.csproj", "{47F6F5D1-F362-436D-9096-99FFC286EE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSignUp.Adapters", "CourseSignUp.Adapters\CourseSignUp.Adapters.csproj", "{2C6EFB4F-FFEE-4FD7-A309-20B5CF828344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{21306EFD-106D-49A4-A46E-38F4B4529DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21306EFD-106D-49A4-A46E-38F4B4529DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21306EFD-106D-49A4-A46E-38F4B4529DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9AADCD-16D1-4472-885C-6CE74B186888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9AADCD-16D1-4472-885C-6CE74B186888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9AADCD-16D1-4472-885C-6CE74B186888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9AADCD-16D1-4472-885C-6CE74B186888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47E82DB-1EA6-4091-B8ED-5A12703CFA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47E82DB-1EA6-4091-B8ED-5A12703CFA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47E82DB-1EA6-4091-B8ED-5A12703CFA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47E82DB-1EA6-4091-B8ED-5A12703CFA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F6F5D1-F362-436D-9096-99FFC286EE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F6F5D1-F362-436D-9096-99FFC286EE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F6F5D1-F362-436D-9096-99FFC286EE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F6F5D1-F362-436D-9096-99FFC286EE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6EFB4F-FFEE-4FD7-A309-20B5CF828344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6EFB4F-FFEE-4FD7-A309-20B5CF828344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6EFB4F-FFEE-4FD7-A309-20B5CF828344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6EFB4F-FFEE-4FD7-A309-20B5CF828344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

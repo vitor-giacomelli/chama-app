@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace CourseSignUp.Api.Courses
+namespace CourseSignUp.Api.Controllers
 {
     [ApiController, Route("[controller]")]
     public class CoursesController : ControllerBase
