@@ -1,4 +1,4 @@
-﻿namespace CourseSignUp.Api.Courses
+﻿namespace CourseSignUp.Services.Dto.Courses
 {
     public class CreateCourseDto
     {

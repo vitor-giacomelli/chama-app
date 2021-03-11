@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CourseSignUp.Services.Dto.Courses;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 

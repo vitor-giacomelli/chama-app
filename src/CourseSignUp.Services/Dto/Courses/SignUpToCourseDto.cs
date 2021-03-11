@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CourseSignUp.Api.Courses
+namespace CourseSignUp.Services.Dto.Courses
 {
     public class SignUpToCourseDto
     {
