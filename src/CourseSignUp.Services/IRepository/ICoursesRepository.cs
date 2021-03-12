@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CourseSignUp.Adapters.Repository.Entities;
+using CourseSignUp.Common.Persistence;
+using CourseSignUp.Services.Dto.Courses;
+using System.Threading.Tasks;
 
 namespace CourseSignUp.Services.IRepository
 {
-    public interface ICoursesRepository
+    public interface ICoursesRepository : IRepository<Course>
     {
+        CourseDto GetCourseById(int id);
     }
 }

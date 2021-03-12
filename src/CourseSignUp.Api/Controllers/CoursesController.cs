@@ -9,7 +9,7 @@ namespace CourseSignUp.Api.Controllers
     public class CoursesController : ControllerBase
     {
         [HttpGet, Route("{id}")]
-        public async Task<IActionResult> Get(string id)
+        public IActionResult Get(int id)
         {
             return Ok(new CourseDto
             {

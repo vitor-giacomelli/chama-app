@@ -8,6 +8,6 @@ namespace CourseSignUp.Services.DomainServices.Contracts
 {
     public interface ICoursesService
     {
-        Task<CourseDto> GetAsync(string id);
+        CourseDto GetCourseById(int id);
     }
 }

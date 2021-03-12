@@ -1,9 +1,6 @@
 ﻿using CourseSignUp.Services.DomainServices.Contracts;
 using CourseSignUp.Services.Dto.Courses;
 using CourseSignUp.Services.IRepository;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CourseSignUp.Services.DomainServices
@@ -17,9 +14,9 @@ namespace CourseSignUp.Services.DomainServices
             _coursesRepository = coursesRepository;
         }
 
-        public Task<CourseDto> GetAsync(string id)
+        public CourseDto GetCourseById(int id)
         {
-            throw new NotImplementedException();
+            return _coursesRepository.GetCourseById(id);
         }
     }
 }

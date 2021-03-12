@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseSignUp.Adapters\CourseSignUp.Adapters.csproj" />
+    <ProjectReference Include="..\CourseSignUp.Common\CourseSignUp.Common.csproj" />
+  </ItemGroup>
+
 </Project>
