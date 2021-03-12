@@ -11,9 +11,10 @@ namespace CourseSignUp.Api.Controllers
         [HttpGet, Route("{id}")]
         public async Task<IActionResult> Get(string id)
         {
-            // TODO
             return Ok(new CourseDto
             {
+
+
 
             });
         }

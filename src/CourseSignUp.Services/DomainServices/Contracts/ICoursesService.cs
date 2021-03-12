@@ -2,11 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CourseSignUp.Services.DomainServices.Contracts
 {
     public interface ICoursesService
     {
-        CourseDto Get(string id);
+        Task<CourseDto> GetAsync(string id);
     }
 }
