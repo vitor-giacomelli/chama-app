@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseSignUp.Common\CourseSignUp.Common.csproj" />
     <ProjectReference Include="..\CourseSignUp.Services\CourseSignUp.Services.csproj" />
   </ItemGroup>
 

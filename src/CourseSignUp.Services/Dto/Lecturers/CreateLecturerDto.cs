@@ -1,4 +1,4 @@
-﻿namespace CourseSignUp.Api.Lecturers
+﻿namespace CourseSignUp.Services.Dto.Lecturers
 {
     public class CreateLecturerDto
     {

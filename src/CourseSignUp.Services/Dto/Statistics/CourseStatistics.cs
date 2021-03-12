@@ -1,4 +1,4 @@
-﻿namespace CourseSignUp.Api.Statistics
+﻿namespace CourseSignUp.Services.Dto.Statistics
 {
     public class CourseStatistics
     {

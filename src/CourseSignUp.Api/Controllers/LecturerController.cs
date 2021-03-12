@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using CourseSignUp.Services.Dto.Lecturers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CourseSignUp.Api.Controllers
