@@ -29,13 +29,13 @@ of sign-ups per day. Calculating this statistic at every request is not feasible
 
 The architecture of the project is to be separated into 5 different layers, respecting the SOLID principles and applying Design Patterns whenever needed. The external packets used are Serilog for logging and AutoMapper to map and project entities to dtos.
 The layers are:
-  #Adapters:
+  # Adapters:
     Here is where the entities will be kept. As well as the ModelContext and BaseDbContext, which will be the tools to access the Database. There's also a generic EntityRepository classe that will be used as main implementation of both Get and Crude methods through inheritance in the repositories of the actual entities.
-  #Api:
+  # Api:
     This is the API, with just the controllers (which will get information from the Services layer - no logic is to be applied in this layer), Program and Startup.
-  #Common:
+  # Common:
     This is a layer to be used in most of other projects, since it's where most commonly used tools are kept. For now, the only classes there are the interfaces for Entity and Repository (to be used in the actual classes as a way to avoid coupling and providing common behavior), and the Logging class which is to be used throughout the application to log events - this is still to be implemented.
-  #Repositories:
+  # Repositories:
     This is where the repositories will be kept. 
-  #Services:
+  # Services:
     This is where the DTOs are kept, along with the contracts used in the services (that will make calls to the Repository layer) and the Mapping profile from AutoMapper. All calls from the controllers for data will be strictly for services in this layer.
