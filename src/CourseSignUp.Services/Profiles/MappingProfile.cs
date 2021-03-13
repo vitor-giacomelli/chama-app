@@ -2,6 +2,7 @@
 using CourseSignUp.Adapters.Repository.Entities;
 using CourseSignUp.Services.Dto.Courses;
 using CourseSignUp.Services.Dto.Lecturers;
+using CourseSignUp.Services.Dto.Statistics;
 using CourseSignUp.Services.Dto.Students;
 
 namespace CourseSignUp.Services.Profiles
@@ -19,6 +20,8 @@ namespace CourseSignUp.Services.Profiles
             CreateMap<Student, StudentDto>();
 
             CreateMap<Lecturer, LecturerDto>();
+
+            CreateMap<CourseStatistics, CourseStatisticsDto>();
                 
         }
     }

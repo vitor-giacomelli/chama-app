@@ -1,4 +1,6 @@
-﻿namespace CourseSignUp.Services.Dto.Statistics
+﻿using System.Collections.Generic;
+
+namespace CourseSignUp.Adapters.Repository.Entities
 {
     public class CourseStatistics
     {
@@ -7,5 +9,7 @@
         public int MinimumAge { get; set; }
         public int MaximumAge { get; set; }
         public decimal AverageAge { get; set; }
+        public virtual Course Course { get; set; }
+        public virtual ICollection<Student> Students { get; set; }
     }
 }
