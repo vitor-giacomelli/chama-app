@@ -4,10 +4,7 @@ using CourseSignUp.Adapters.Repository.Entities;
 using CourseSignUp.Adapters.Repository.Repositories;
 using CourseSignUp.Services.Dto.Courses;
 using CourseSignUp.Services.IRepository;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CourseSignUp.Repositories.DomainRepositories
 {

@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using CourseSignUp.Adapters.Repository.Entities;
 using CourseSignUp.Services.Dto.Courses;
+using CourseSignUp.Services.Dto.Lecturers;
+using CourseSignUp.Services.Dto.Students;
 
 namespace CourseSignUp.Services.Profiles
 {
@@ -13,6 +15,11 @@ namespace CourseSignUp.Services.Profiles
                     opts => opts.MapFrom(src => src.MaximumStudents))
                 .ForMember(dest => dest.NumberOfStudents,
                     opts => opts.MapFrom(src => src.Students.Count));
+
+            CreateMap<Student, StudentDto>();
+
+            CreateMap<Lecturer, LecturerDto>();
+                
         }
     }
 }

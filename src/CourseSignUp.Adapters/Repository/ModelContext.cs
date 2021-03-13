@@ -1,8 +1,5 @@
 ﻿using CourseSignUp.Adapters.Repository.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CourseSignUp.Adapters.Repository
 {

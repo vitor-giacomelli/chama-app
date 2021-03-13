@@ -1,4 +1,4 @@
-﻿using System;
+﻿using CourseSignUp.Services.Dto.Students;
 
 namespace CourseSignUp.Services.Dto.Courses
 {
@@ -6,12 +6,5 @@ namespace CourseSignUp.Services.Dto.Courses
     {
         public string CourseId { get; set; }
         public StudentDto Student { get; set; }
-
-        public class StudentDto
-        {
-            public string Email { get; set; }
-            public string Name { get; set; }
-            public DateTime DateOfBirth { get; set; }
-        }
     }
 }

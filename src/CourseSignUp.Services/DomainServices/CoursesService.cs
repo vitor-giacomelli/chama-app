@@ -1,7 +1,6 @@
 ﻿using CourseSignUp.Services.DomainServices.Contracts;
 using CourseSignUp.Services.Dto.Courses;
 using CourseSignUp.Services.IRepository;
-using System.Threading.Tasks;
 
 namespace CourseSignUp.Services.DomainServices
 {

@@ -9,7 +9,7 @@ namespace CourseSignUp.Api.Controllers
     public class LecturersController : ControllerBase
     {
         [HttpPost, Route("create")]
-        public Task<IActionResult> Post([FromBody]CreateLecturerDto createStudentDto)
+        public Task<IActionResult> Post([FromBody]LecturerDto createStudentDto)
         {
             throw new NotImplementedException();
         }
