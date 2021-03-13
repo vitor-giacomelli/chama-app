@@ -15,13 +15,22 @@ namespace CourseSignUp.Services.Profiles
                 .ForMember(dest => dest.Capacity,
                     opts => opts.MapFrom(src => src.MaximumStudents))
                 .ForMember(dest => dest.NumberOfStudents,
-                    opts => opts.MapFrom(src => src.Students.Count));
+                    opts => opts.MapFrom(src => src.Students.Count))
+                .ReverseMap();
 
-            CreateMap<Student, StudentDto>();
+            CreateMap<Student, StudentDto>()
+                .ReverseMap();
 
-            CreateMap<Lecturer, LecturerDto>();
+            CreateMap<Lecturer, LecturerDto>()
+                .ReverseMap();
 
-            CreateMap<CourseStatistics, CourseStatisticsDto>();
+            CreateMap<CourseStatistics, CourseStatisticsDto>()
+                .ReverseMap();
+
+            CreateMap<Course, CreateCourseDto>()
+                .ForMember(dest => dest.Capacity,
+                    opts => opts.MapFrom(src => src.MaximumStudents))
+                .ReverseMap();
                 
         }
     }

@@ -22,9 +22,10 @@ namespace CourseSignUp.Api.Controllers
         }
 
         [HttpPost, Route("create")]
-        public Task<IActionResult> Post([FromBody]CreateCourseDto createCourseDto)
+        public async Task<IActionResult> Post([FromBody]CreateCourseDto createCourseDto)
         {
-            throw new NotImplementedException();
+            return Ok(await _service.CreateCourse(createCourseDto));
+            
         }
 
         [HttpPost, Route("sign-up")]

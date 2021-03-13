@@ -8,5 +8,6 @@ namespace CourseSignUp.Services.IRepository
     public interface ICoursesRepository : IRepository<Course>
     {
         CourseDto GetCourseById(int id);
+        Task CreateCourse(CreateCourseDto course);
     }
 }

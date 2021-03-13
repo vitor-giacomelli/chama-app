@@ -7,6 +7,7 @@ namespace CourseSignUp.Adapters.Repository.Entities
     {
         public int Id { get; set; }
         public int LecturerId { get; set; }
+        public string Name { get; set; }
         public int MaximumStudents { get; set; }
         public virtual ICollection<Student> Students { get; set; }
     }
